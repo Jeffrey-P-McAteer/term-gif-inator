@@ -6,7 +6,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
   rt.block_on(async {
     if let Err(e) = async_main().await {
-      eprintln!("{:?}", e);
+      eprintln!("Error: {:?}", e);
     }
   });
 
