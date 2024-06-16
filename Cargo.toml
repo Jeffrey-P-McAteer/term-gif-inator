@@ -1,0 +1,12 @@
+[package]
+name = "term-gif-inator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[target.'cfg(unix)'.dependencies]
+procfs = "0.16"
+
+
